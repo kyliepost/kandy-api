@@ -1,8 +1,142 @@
 {
-    "locations": [],
-    "products": [],
-    "employees": [],
-    "productTypes": [],
-    "customers": [],
-    "purchases": []
+    "locations": [
+        {
+            "id": 1,
+            "city": "Nashville",
+            "handicapAccessible": "true"
+        },
+        {
+            "id": 2,
+            "city": "Hendersonville",
+            "handicapAccessible": "true"
+        },
+        {
+            "id": 3,
+            "city": "White House",
+            "handicapAccessible": "false"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Twix",
+            "price": 0.75,
+            "productTypeId": "Chocolate"
+        },
+        {
+            "id": 2,
+            "name": "Skittles",
+            "price": 1.25,
+            "productTypeId": "Hard Candy"
+        },
+        {
+            "id": 3,
+            "name": "Cherry Drops",
+            "price": 1.15,
+            "productTypeId": "Hard Candy"
+        },
+        {
+            "id": 4,
+            "name": "Kit Kat",
+            "price": 0.80,
+            "productTypeId": "Hard Candy"
+        },
+        {
+            "id": 5,
+            "name": "Crunch",
+            "price": 1.00,
+            "productTypeId": "Hard Candy"
+        }
+    ],
+    "productTypes": [
+        {
+            "id": 1,
+            "type": "Chocolate"
+        },
+        {
+            "id":2 ,
+            "type": "Hard Candy"
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "name": "Matt",
+            "locationId": "Nashville"
+        },
+        {
+            "id": 2,
+            "name": "Lisa",
+            "locationId": "White House"        },
+        {
+            "id": 3,
+            "name": "Bethany",
+            "locationId": "Hendersonville"
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "Hallie"
+        },
+        {
+            "id": 2,
+            "name": "Donny"
+        },
+        {
+            "id": 3,
+            "name": "David"
+        },
+        {
+            "id": 4,
+            "name": "Madalyn"
+        },
+        {
+            "id": 5,
+            "name": "Shea"
+        }
+    
+    ],
+    "purchases": [
+        {
+            "id": 1,
+            "totalPrice": 1.15,
+            "locationId": 1,
+            "productId": 1,
+            "employeeId": 1,
+            "customerId": 1
+        },
+        {
+            "id": 2,
+            "totalPrice": 1.25,
+            "locationId": 2,
+            "productId": 2,
+            "employeeId": 2,
+            "customerId": 2 
+        },
+        {
+            "id": 3,
+            "totalPrice": 0.75,
+            "locationId": 3,
+            "productId": 3,
+            "employeeId": 3,
+            "customerId":  3
+        },
+        {
+            "id": 4,
+            "totalPrice": 1.00,
+            "locationId": 2,
+            "productId": 2,
+            "employeeId": 1,
+            "customerId": 4 
+        },
+        {
+            "id": 5,
+            "totalPrice": 0.80,
+            "locationId": 1,
+            "productId": 1,
+            "employeeId": 2,
+            "customerId": 5 
+        }
+    ]
 }
