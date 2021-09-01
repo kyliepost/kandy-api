@@ -21,31 +21,31 @@
             "id": 1,
             "name": "Twix",
             "price": 0.75,
-            "productTypeId": "Chocolate"
+            "productTypeId": 1
         },
         {
             "id": 2,
             "name": "Skittles",
             "price": 1.25,
-            "productTypeId": "Hard Candy"
+            "productTypeId": 2
         },
         {
             "id": 3,
             "name": "Cherry Drops",
             "price": 1.15,
-            "productTypeId": "Hard Candy"
+            "productTypeId": 2
         },
         {
             "id": 4,
             "name": "Kit Kat",
             "price": 0.80,
-            "productTypeId": "Hard Candy"
+            "productTypeId": 2
         },
         {
             "id": 5,
             "name": "Crunch",
             "price": 1.00,
-            "productTypeId": "Hard Candy"
+            "productTypeId": 1
         }
     ],
     "productTypes": [
