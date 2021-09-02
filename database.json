@@ -39,7 +39,7 @@
             "id": 4,
             "name": "Kit Kat",
             "price": 0.80,
-            "productTypeId": 2
+            "productTypeId": 1
         },
         {
             "id": 5,
